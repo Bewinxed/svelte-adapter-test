@@ -38,6 +38,7 @@
 		"@bewinxed/wallet-adapter-svelte": "^0.16.1",
 		"@bewinxed/wallet-adapter-svelte-ui": "^0.2.1",
 		"@solana/wallet-adapter-wallets": "^0.19.32",
+		"node-gyp": "^10.2.0",
 		"svelte-sonner": "^0.3.28"
 	}
 }
