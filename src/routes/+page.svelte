@@ -1,9 +1,6 @@
 <script lang="ts">
 	import { useSolana } from '@bewinxed/wallet-adapter-svelte';
 	import { WalletMultiButton } from '@bewinxed/wallet-adapter-svelte-ui';
-	import { onMount } from 'svelte';
-
-	const solana = useSolana();
 </script>
 
 <div
@@ -12,10 +9,11 @@
 	<!-- <button onclick={() => solana.context.wallet?.connect()}>Connect</button>
 	<button onclick={() => solana.context.wallet?.disconnect()}>Disconnect</button> -->
 
-	<ul class="flex flex-col gap-2 place-self-center text-white">
-		<span class="place-self-center text-center font-bold">Solana On Svelte</span>
-		<li>* Auto Detected Wallets ;)</li>
-		<li>* Revamped UI ;)</li>
+	<img src="/banner.png" alt="banner" class="w-96" />
+	<ul class="flex flex-col gap-2 place-self-center">
+		<span class="place-self-start text-start font-bold">Solana On Svelte</span>
+		<li>* Auto Detected Wallets ;</li>
+		<li>* Revamped UI ;</li>
 		<li>* Feature parity with react version</li>
 	</ul>
 	<WalletMultiButton class="scale-100 place-self-center bg-white" />
